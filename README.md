@@ -10,10 +10,14 @@
         - Admin
         - Manager
         - User
+- Users
 - Category
-- Post
+- Tag
 - Set module
-
+- Settings
+- Notification
+- Statistics
+- Search
 ---
 # 1. Install
 
@@ -31,7 +35,7 @@ php artisan make:admin --createadmin -e admin@admin.com -p password123
 <form>
     // <label>Post edition<label>
     // <textarea name="post" id="summernote" ></textarea>
-    {{ snote('post', 'Post edition') }}
+    {{ summernote('post', 'Post edition') }}
 </form>
 ```
 
